@@ -1,0 +1,325 @@
+@charset "utf-8";
+@media only screen and (min-device-width : 228px) and (max-device-width : 320px) {
+#background{
+width: 100%;
+background: url(../images/banner-bg.jpg) no-repeat center top scroll;
+background-position: top;
+background-size: contain;
+}
+.mainlogo{
+padding:21px 10px 0px;
+}
+.mainlogo img{
+width: 87%;
+}
+.logoDiv{
+width: 60%;
+}
+.triangle-up-left{
+left: 192px !important;
+padding-bottom: 38.5%;
+padding-left: 37.5%;
+}
+.banner{
+width: 100%;
+background: url(../images/banner-bg.jpg) no-repeat center top scroll;
+background-position: cover;
+background-size: cover;
+
+}
+.header{
+background-color: rgba(0, 0, 0, 1);
+margin-top: 0px;
+padding:0px;
+}
+.bannerinfo{
+margin-top: 7px;
+}
+.banner p{
+font-size: 20px;
+}
+p.f30px{
+font-size:14px;
+padding-top: 0px;
+}
+.vision-missionblock{
+padding-top: 10px;
+}
+.supportus-block p{
+padding:20px 10px 40px;
+font-size: 13px;
+}
+.sec-title{
+left: 98px !important;
+top: -5px;
+}
+.sec-title h2{
+font-size: 20px;
+}
+.sec-title::before,.sec-title:after{	
+width: 54px !important;
+}
+.sec-title::before{
+left: 152px;
+}
+.sec-title::after{
+right: 152px;
+}
+.btn-title{
+position: absolute;
+text-align: center;	
+left: 98px !important;
+bottom: -34px;
+}
+.btn-title::before,.btn-title:after{	
+width: 64px !important;
+}
+.btn-title::before{
+left: 142px;
+}
+.btn-title::after{
+right: 142px;
+}
+.smalouterbtn{
+right: -195px !important;
+}
+.triangle-bottomleft, .triangle-bottomright, .event-triangle{
+display: none;
+}
+.tournament_info p{
+padding:11px 16px 20px 16px;
+}
+.underline{
+left: 36%;
+}
+.match_detail p{
+padding-right: 0px;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#background{
+width: 100%;
+background: url(../images/banner-bg.jpg) no-repeat center top scroll;
+background-position: top;
+background-size: contain;
+}
+.mainlogo{
+padding:21px 10px 0px;
+}
+.mainlogo img{
+width: 87%;
+}
+.logoDiv{
+width: 60%;
+}
+.triangle-up-left{
+left: 216px;
+}
+.banner{
+width: 100%;
+background: url(../images/banner-bg.jpg) no-repeat center top scroll;
+background-position: cover;
+background-size: cover;
+
+}
+.header{
+background-color: rgba(0, 0, 0, 1);
+margin-top: 0px;
+padding:0px;
+}
+.bannerinfo{
+margin-top: 7px;
+}
+.banner p{
+font-size: 20px;
+}
+p.f30px{
+font-size:14px;
+padding-top: 0px;
+}
+.vision-missionblock{
+padding-top: 10px;
+}
+.supportus-block p{
+padding:20px 10px 40px;
+font-size: 13px;
+}
+.sec-title{
+left: 118px;
+top: -5px;
+}
+.sec-title h2{
+font-size: 20px;
+}
+.sec-title::before,.sec-title:after{	
+width: 74px;
+}
+.sec-title::before{
+left: 152px;
+}
+.sec-title::after{
+right: 152px;
+}
+.btn-title{
+position: absolute;
+text-align: center;	
+left: 117px;
+bottom: -34px;
+}
+.btn-title::before,.btn-title:after{	
+width: 84px;
+}
+.btn-title::before{
+left: 142px;
+}
+.btn-title::after{
+right: 142px;
+}
+.smalouterbtn{
+right: -234px;
+}
+.triangle-bottomleft, .triangle-bottomright, .event-triangle{
+display: none;
+}
+.tournament_info p{
+padding:11px 16px 20px 16px;
+}
+.underline{
+left: 36%;
+}
+.match_detail p{
+padding-right: 0px;
+}
+.s_evntouterbtn{
+right: -182px;
+bottom: 0px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#background{
+width: 100%;
+background: url(../images/banner-bg.jpg) no-repeat center top scroll;
+background-position: top;
+background-size: contain;
+}
+.MainNav ul li a{
+font-size: 12px;
+}
+.mainlogo{
+padding:21px 10px 0px;
+}
+.mainlogo img{
+width: 87%;
+}
+.logoDiv{
+width: 30%;
+}
+.triangle-up-left{
+display: none;
+}
+.triangle-bottomright{
+border-top: 172px solid #f1c40f;
+}
+.triangle-bottomleft {
+border-bottom: 222px solid #212121;
+top: 118px;
+}
+.header{
+background-color: rgba(0, 0, 0, 1);
+margin-top: 8px;
+padding:0px;
+}
+.bannerinfo{
+margin-top: 27px;
+}
+.banner p{
+font-size: 45px;
+padding: 0px 0px 10px;
+}
+p.f30px{
+font-size:25px;
+padding-top: 0px;
+}
+.vision-missionblock{
+padding-top: 10px;
+}
+.supportus-block p{
+padding:20px 10px 40px;
+font-size: 13px;
+}
+.tournament_info img{
+width: 100%;
+}
+.tournament_info h2{
+font-size:19px;
+}
+.tournament_update h2{
+font-size: 18px;
+}
+.upcoming_gameDiv{
+margin:23px 60px 0px;
+}
+.tournament_update h3{
+padding-top: 22px;
+
+}
+.sec-title{
+left: 297px;
+top: -5px;
+}
+.sec-title h2{
+font-size: 25px;
+}
+.sec-title::before,.sec-title:after{	
+width: 274px;
+}
+.sec-title::before{
+left: 162px;
+}
+.sec-title::after{
+right: 162px;
+}
+.btn-title{
+left: 312px;
+bottom: -34px;
+}
+.btn-title::before,.btn-title:after{	
+width: 280px;
+}
+.btn-title::before{
+left: 142px;
+}
+.btn-title::after{
+right: 142px;
+}
+.smalouterbtn{
+right: -210px;
+}
+.event-triangle{
+display: none;
+}
+.tournament_info p{
+padding:41px 70px 20px 16px;
+}
+.underline{
+left: 44%;
+}
+.match_detail p{
+padding-right: 0px;
+}
+.s_evntouterbtn{
+right: -235px;
+}
+.innerbanner_info p{
+font-size: 46px;
+padding: 20px 0px 0px;
+}
+.gal_category {
+    text-align: center;
+    padding: 20px 0px;
+}
+}
